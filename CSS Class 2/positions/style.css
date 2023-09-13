@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* width: 50%;
+  height: 500px;
+  border: 2px solid crimson;
+  border-radius: 10px;
+
+  position: relative; */
+}
+
+.two {
+  /* margin-top: 504px; */
+  /* top: 504px; */
+}
+
+.three {
+  /* margin-top: 1008px; */
+  /* top: 1008px; */
+}
+
+.circle {
+  /* width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  border-radius: 50%;
+
+  font-size: 20px;
+  font-family: sans-serif; */
+  /* position: relative;
+  top: 10px; */
+
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) scale(1) rotateZ(45deg); */
+}
+
+/* .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+span {
+  /* font-size: 30px;
+  font-weight: bold;
+  position: fixed;
+  top: 10px; */
+}
