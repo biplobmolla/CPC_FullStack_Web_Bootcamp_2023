@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 200px;
+        height: 100px;
+        background-color: brown;
+      }
+      div::after {
+        content: "Hey Whatsupp";
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+
+      p::selection {
+        background-color: brown;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae at
+      culpa harum alias doloribus sequi. A labore quod iure dolorem molestiae
+      officia dolores deserunt delectus perferendis nulla sit excepturi ex
+      voluptate laborum blanditiis animi, nam ducimus natus nesciunt neque
+      dicta!
+    </p>
+  </body>
+</html>
