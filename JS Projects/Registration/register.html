@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an account</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="transparent__bg" id="transparent__bg__register"></div>
+    <div class="modal" id="modal__register">
+      <img
+        src="https://freepngimg.com/download/success/6-2-success-png-image.png"
+        alt="Success Icon"
+      />
+      <h2>Registration successful</h2>
+    </div>
+    <form action="#">
+      <h1>Signup</h1>
+      <div class="formContent">
+        <div class="inputContainer">
+          <span class="inputLabel">Name</span>
+          <input
+            class="inputField"
+            type="text"
+            placeholder="Enter your full name"
+            id="name"
+          />
+        </div>
+        <div class="inputContainer">
+          <span class="inputLabel">Email</span>
+          <input
+            class="inputField"
+            type="text"
+            placeholder="Enter your email address"
+            id="email"
+          />
+        </div>
+        <div class="inputContainer">
+          <span class="inputLabel">Phone Number</span>
+          <input
+            class="inputField"
+            type="text"
+            placeholder="Enter your phone number"
+            id="phone"
+          />
+        </div>
+        <div class="inputContainer">
+          <span class="inputLabel">Password</span>
+          <input
+            class="inputField"
+            type="text"
+            placeholder="Enter your password"
+            id="pass"
+          />
+        </div>
+        <div class="inputContainer">
+          <span class="inputLabel">Confirm Password</span>
+          <input
+            class="inputField"
+            type="text"
+            placeholder="Enter your confirm password"
+            id="cpass"
+          />
+        </div>
+        <input
+          class="formBtn"
+          type="submit"
+          value="Signup"
+          id="signupBtn"
+        /><br />
+        <span class="formText"
+          >Already have an account? <a href="login.html">Signin</a></span
+        >
+      </div>
+    </form>
+
+    <script src="register.js"></script>
+  </body>
+</html>

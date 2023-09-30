@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.homeContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px 100px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.homeContainer h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 600;
+  letter-spacing: 10px;
+}
+
+.homeContainer h1::first-letter {
+  color: crimson;
+}
+
+.homeContainer h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: gray;
+  margin: 20px 0;
+}
+
+form {
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  height: 500px;
+  overflow-y: auto;
+}
+
+.loginBody {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm {
+  margin-top: auto;
+  height: 320px;
+}
+
+.formContent {
+  margin-top: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer .inputLabel {
+  font-family: sans-serif;
+  color: gray;
+  font-size: 14px;
+  margin-left: 2px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.inputContainer .inputField {
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  /* outline: 0; */
+  margin-top: 5px;
+}
+
+.formBtn {
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 0;
+  cursor: pointer;
+  border: 0;
+  border-radius: 6px;
+  background-color: blue;
+  color: white;
+  transition: 0.4s;
+  outline: 0;
+  margin: 20px 0 0 340px;
+}
+
+.formBtn:hover {
+  background-color: rgb(3, 3, 90);
+}
+
+.formText {
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.formText a {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.modal {
+  font-family: sans-serif;
+  display: flex;
+  width: 420px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 30px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  transition: 0.6s;
+  display: none;
+}
+
+.modal img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.transparent__bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9;
+  transition: 0.4s;
+  display: none;
+}
+
+button {
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+  background-color: red;
+  color: white;
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(99, 1, 1);
+}

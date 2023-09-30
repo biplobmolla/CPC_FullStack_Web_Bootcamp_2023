@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="loginBody">
+    <div class="transparent__bg" id="transparent__bg__login"></div>
+    <div class="modal" id="modal__login">
+      <img
+        src="https://freepngimg.com/download/success/6-2-success-png-image.png"
+        alt="Success Icon"
+      />
+      <h2>Login successful</h2>
+    </div>
+    <form class="loginForm" action="#">
+      <h1>Signin</h1>
+      <div class="formContent">
+        <div class="inputContainer">
+          <span class="inputLabel">Email</span>
+          <input
+            class="inputField"
+            type="text"
+            id="loginEmail"
+            placeholder="Enter your email address"
+          />
+        </div>
+        <div class="inputContainer">
+          <span class="inputLabel">Password</span>
+          <input
+            class="inputField"
+            type="text"
+            id="loginPass"
+            placeholder="Enter your password"
+          />
+        </div>
+        <input class="formBtn" type="submit" value="Signin" id="loginBtn" />
+        <span class="formText"
+          >Don't have an account? <a href="register.html">Signup</a></span
+        >
+      </div>
+    </form>
+    <script src="login.js"></script>
+  </body>
+</html>
