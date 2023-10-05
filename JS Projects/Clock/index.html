@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="outer__side">
+      <div class="header__area">
+        <h1 class="brand__text">Calculator</h1>
+        <div>
+          <div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <div class="calculator">
+        <div class="input__area">
+          <input id="inputBox" type="text" disabled />
+        </div>
+        <div class="numbers">
+          <div id="plus" onclick="input('+')">+</div>
+          <div id="minus" onclick="input('-')">-</div>
+          <div id="multiple" onclick="input('x')">x</div>
+          <div id="divide" onclick="input('÷')">÷</div>
+          <div id="module" onclick="input('%')">%</div>
+          <div id="one" onclick="input(1)">1</div>
+          <div id="two" onclick="input(2)">2</div>
+          <div id="three" onclick="input(3)">3</div>
+          <div id="four" onclick="input(4)">4</div>
+          <div id="five" onclick="input(5)">5</div>
+          <div id="six" onclick="input(6)">6</div>
+          <div id="seven" onclick="input(7)">7</div>
+          <div id="eight" onclick="input(8)">8</div>
+          <div id="nine" onclick="input(9)">9</div>
+          <div id="zero" onclick="input(0)">0</div>
+          <div id="equal" class="equal" onclick="input('=')">=</div>
+        </div>
+      </div>
+    </div>
+    <button onclick="ac()">AC</button>
+    <button onclick="input('m+')">M+</button>
+    <script src="script.js"></script>
+  </body>
+</html>
